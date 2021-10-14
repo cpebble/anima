@@ -1,0 +1,16 @@
+{
+  "name": "Line Dance",
+  "width": 3,
+  "height": 1,
+  "tiles": [
+    "..r"
+  ],
+  "actors": [
+    {
+      "color": "red",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "optimalMoves": 2
+}

@@ -1,0 +1,15 @@
+name: Anima
+version: 0.0.1
+synopsis: See README
+ghc-options: -Wall
+dependencies: 
+  - base
+  - aeson
+  - bytestring
+library:
+  source-dirs: .
+  exposed-modules:
+    - PParser
+    - Solver
+
+

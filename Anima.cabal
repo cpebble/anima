@@ -1,0 +1,25 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           Anima
+version:        0.0.1
+synopsis:       See README
+build-type:     Simple
+
+library
+  exposed-modules:
+      PParser
+      Solver
+  other-modules:
+      Paths_Anima
+  hs-source-dirs:
+      ./
+  ghc-options: -Wall
+  build-depends:
+      aeson
+    , base
+    , bytestring
+  default-language: Haskell2010
